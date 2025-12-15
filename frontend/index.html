@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyDev | Word Usage Analyzer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Word Usage Analyzer</h1>
+    <p>
+      Aplicação que analisa as palavras mais usadas no cotidiano
+      comparando textos dos Estados Unidos e do Brasil.
+    </p>
+  </header>
+
+  <main class="container">
+
+    <section class="controls">
+      <button id="btn-usa">🇺🇸 Analisar Inglês (EUA)</button>
+      <button id="btn-brazil">🇧🇷 Analisar Português (Brasil)</button>
+    </section>
+
+    <section class="results">
+      <h2>Resultado da Análise</h2>
+      <p id="status">Clique em um botão para iniciar a análise.</p>
+
+      <table id="results-table" hidden>
+        <thead>
+          <tr>
+            <th>Palavra</th>
+            <th>Frequência</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JS vai preencher -->
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>
+      Desenvolvido por Adriano Dantas • Projeto StudyDev
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
